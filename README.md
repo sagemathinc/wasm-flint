@@ -30,7 +30,8 @@ The same instructions should work with any other program there, except for cpp, 
 
 ```sh
 $ em++ partitions.cpp -o partitions.js -L$PREFIX/lib -I$PREFIX/include/flint -I$PREFIX/include -lflint -lmpir -lmpfr
-$ time node partitions.js 100093982083408923         p(1178362907) =969255932718701...362545
+$ time node partitions.js 100093982083408923
+p(1178362907) =969255932718701...362545
 real    0m1.429s
 ```
 
